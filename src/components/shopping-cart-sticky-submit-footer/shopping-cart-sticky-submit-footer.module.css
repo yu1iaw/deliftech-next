@@ -1,0 +1,22 @@
+.container {
+    position: sticky;
+    bottom: -.8rem;
+    left: 0;
+    right: 0;
+    background-color: gainsboro;
+
+    >div:first-child {
+        padding: .5px;
+        background-color: gray;
+        margin-top: 40px;
+    }
+
+    >div:nth-child(2) {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 2rem;
+        margin-block: 1rem;
+        padding-inline: 1rem;
+    }
+}

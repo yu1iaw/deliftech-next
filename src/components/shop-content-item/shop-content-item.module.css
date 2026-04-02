@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    img {
+        border-radius: 5px;
+    }
+
+    div:first-of-type {
+        display: flex;
+        gap: .5rem;
+        align-items: center;
+    }
+
+    p:first-of-type {
+        font-weight: 500;
+    }
+
+    span {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+    }
+
+    button:last-of-type {
+        align-self: end;
+    }
+}

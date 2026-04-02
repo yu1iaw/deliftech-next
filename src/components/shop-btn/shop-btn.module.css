@@ -1,0 +1,11 @@
+.shopBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: .5rem;
+    border: 1px solid gray;
+    transition: all 200ms ease-in-out;
+}

@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    flex: 1;
+    gap: 1rem;
+    border-radius: .5rem;
+}
+
+.formControl {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+    max-width: 90%;
+    gap: .5rem;
+
+    span {
+        font-size: 14;
+        color: crimson;
+        margin-top: -5px;
+    }
+
+}

@@ -1,0 +1,17 @@
+.container {
+    position: fixed;
+    right: 2.5rem;
+    top: 6.35rem;
+    display: flex;
+    gap: 8px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: gainsboro;
+
+    button {
+        width: 64px;
+        height: 30px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+}

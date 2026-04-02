@@ -1,0 +1,35 @@
+.selectedItem {
+    display: flex;
+    border: 1px solid gray;
+    gap: 1.5rem;
+    border-radius: .5rem;
+    padding: 1rem;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.image {
+    object-fit: cover;
+    aspect-ratio: 3/2;
+    border-radius: 6px;
+}
+
+.itemInfo {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: .5rem;
+
+    >p:first-child {
+        font-weight: bold;
+    }
+}
+
+.trashIcon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 8px;
+    background-color: transparent;
+    border: 0;
+}

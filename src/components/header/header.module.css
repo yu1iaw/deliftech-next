@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    padding-top: 3rem;
+    padding-inline: 1.5rem;
+    gap: 1.5rem;
+
+    li {
+        padding-block: 5px;
+    }
+
+    li:first-child {
+        padding-right: 1.5rem;
+        border-right: 2px solid gray;
+    }
+}
