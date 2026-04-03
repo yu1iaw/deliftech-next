@@ -34,6 +34,7 @@
     >div:nth-of-type(2) {
       display: flex;
       flex-wrap: wrap;
+      align-content: flex-start;
       border: 1px solid gray;
       flex: 1;
       gap: 2rem;

@@ -37,7 +37,8 @@ export const getShopContent = async (id = 4, categoryId?: string) => {
                         category: !categoryId ? undefined : {
                             id: { in: categoryId.split(',').map(c => +c) }
                         }
-                    }
+                    },
+                    orderBy: [{ categoryId: 'asc' }, { name: 'asc' }]
                 }
             }
         })
